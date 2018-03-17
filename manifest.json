@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "haha",
+    "short_name": "haha",
+    "version": "1.1",
+    "description": "Sometimes things are tough haha",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "js/haha.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
